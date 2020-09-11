@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to right, yellow, green, orange, blue);
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(59, 57, 57);
+    padding: auto;
+    /* display: flex;
+    justify-items: center;
+    align-content: center; */
+}
+.topp{
+    background-image: url("todo.jpg");
+    height: 150px;
+    width: 400px;
+    /* background-color: blanchedalmond; */
+    
+
+}
+#resetbtn{
+    /* background-image: linear-gradient(to left, red,blue); */
+    padding: 5px;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+#resetbtn:hover{
+    background-color: crimson;
+}
+.midd{
+    background-color: rgb(181, 185, 187);
+    height: 350px;
+    width: 400px;
+}
+.paragraph-styling{
+    margin: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#addanote{
+    height: 40px;
+    width: 360px;
+}
+#addabtn{
+    height: 40px;
+    width: 30px;
+}
